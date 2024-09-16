@@ -17,7 +17,7 @@ def treats(people: int) -> int:
 
 def cost(tea_count: int, treat_count: int) -> float:
     """How much do I owe ya?"""
-    return (treat_count * 0.75) + (tea_count * 0.5)  # multiply then add
+    return 1.00 * ((treat_count * 0.75) + (tea_count * 0.50))  # multiply then add
 
 
 def main_planner(guests: int) -> None:
